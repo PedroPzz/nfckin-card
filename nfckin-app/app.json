@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "NFCkin Manager",
+    "slug": "nfckin-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.nfckinmanager",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Usamos a câmera para escanear o QR code do seu card NFCkin."
+      }
+    },
+    "android": {
+      "package": "com.yourname.nfckinmanager",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      },
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita o acesso à câmera para escanear QR codes dos cards NFCkin."
+        }
+      ]
+    ]
+  }
+}

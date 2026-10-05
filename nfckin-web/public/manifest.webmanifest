@@ -1,0 +1,14 @@
+{
+  "name": "NFCkin Manager",
+  "short_name": "NFCkin",
+  "description": "Gerencie seus cards NFCkin de forma independente.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
